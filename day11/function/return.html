@@ -9,14 +9,15 @@
 <body>
     <script>
         //반환값이 있는 함수 - return 사용
-        function add(x, y){
+        function add(x, y){// var x, var y
             var sum = x + y;
             return sum;
         }
 
         // 변수이름 = function(){}
-        var square = function(x) {
-            return x * x;
+        // 제곱수를 만드는 함수
+        var square = function(n) {//var n;(지역 변수)
+            return n * n;
         }
 
         var result = add(10, -5);
@@ -25,6 +26,9 @@
 
         document.write("<br>합계 : " + result);
         document.write("<br>결과 값 : " + num);
+        // document.write("x = " + x);
+        // document.write("x = " + n);
+        
 
     </script>
 </body>

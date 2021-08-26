@@ -7,11 +7,10 @@
     <title>innerHTML 속성 예제</title>
 </head>
 <body>
-    <p id="myP">클릭하면</p>
-    <h1>My Web Page</h1>
     <!-- <p id="myP" onclick="myFunc()">이것은 P 태그입니다.</p> -->
     <!-- <p id="myP" onmouseover="myFunc()">이것은 P 태그입니다.</p> -->
     <button onclick="myFunc()">확인</button>
+    <p id="myP">클릭하면</p>
     <script>
        function myFunc(){
            document.getElementById("myP").innerHTML = "내용이 바뀝니다!";
