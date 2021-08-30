@@ -35,6 +35,7 @@
         var day1 = new Date("2021-8-10");
         var today = new Date();
 
+        //1970. 1.1 자정이후 ~ 지금까지 밀리초(ms-1/1000)로 환산
         var passtime = today.getTime() - day1.getTime();
         //밀리초를 "일"로 환산
         passtime = Math.round(passtime/(24*60*60*1000));
