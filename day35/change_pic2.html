@@ -14,8 +14,9 @@
     <script>
         // 이벤트가 2개 이상인 경우 - addEventListner() 함수 사용
         pic = document.getElementById('pic');
-        // 마우스를 클릭했을때 이벤트
-        pic.addEventListener("mouseover", function(){
+
+        // 마우스를 올리고 내렸을때 이벤트
+        pic.addEventListener("mouseover", function(){  // 주의 on을 생략
             pic.src = "./images/coffee-pink.jpg";
         });
         
